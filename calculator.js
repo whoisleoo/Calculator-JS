@@ -1,5 +1,4 @@
-// Lembrete: o TIPO no html possui DUAS FUNÇOES, sendo elas a função de: VALOR e de AÇÃO
-//Por isso comparamos as duas com os respectivos comandos.
+
 var resultado = document.getElementById('resultado')
 let substituir = false
 let limitOperator = false
@@ -56,9 +55,3 @@ function segredo() {
   document.body.appendChild(secret)
 }
 
-/* Pretendo modificar esse código quanto maior meu conhecimento em javascript, e provavelmente no futuro refaze-lo, por enquanto deixarei assim, mas já tenho noção das falhas e erros que o código possui */
-/* Modificações feitas:
- 1- Verificar se o número é finito e concertar a equação de divisão por 0.
- 2 - Substituir o valor do resultado toda vez que um outro valor for pressionado
- 3 - Tirar a repetição de operadores de ação.
- */
